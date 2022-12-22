@@ -32,7 +32,7 @@ body{
 .navbar-logo{
     display: flex;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 14px;
 }
 
 .navbar-icon{
@@ -42,7 +42,8 @@ body{
 }
 
 .navbar-icon i{
-    color: black;
+    color: #ffffff;
+    border: #fff;
 }
 
 .navbar-text{
