@@ -1,7 +1,9 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Dancing Script', cursive;}
+    font-family: 'Montserrat', sans-serif;
+
+}
 
 body{
     background-image: url("./blurry-gradient-haikei.svg");
@@ -13,10 +15,15 @@ body{
     justify-content: center;
 }
 
+.app{
+    height: 100%;
+    width: 100%;
+}
+
 .header{
-    height: 20%;
     background: #FFB800;
     width: 100%;
+    height: 20%;
 }
 
 .header-navbar{
@@ -25,26 +32,25 @@ body{
 }
 
 .navbar-logo img{
-    position: absolute;
     border-radius: 100%;
 }
 
 .navbar-logo{
+    padding: 1%;
     display: flex;
-    padding: 10px;
+    font-size: 3rem;
+    margin: 10px;
 }
 
-.navbar-icon{
-    display: inline-block;
-}
-
-.navbar-icon i{
-    color: #ffffff;
-    border: #fff;
+.navbar-logo i{
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 5px;
 }
 
 .navbar-text{
-    font-size: 1rem;
+    margin-right: 10%;
+    margin-top: 3%;
 }
 
 .navbar-text .text{
@@ -52,11 +58,13 @@ body{
     color: black;
     font-size: 2.5rem;
     margin: 10px;
+    position: relative;
 }
 
 
+
 .content{
-    height: min-content;
+    height: 60%;
     width: 60%;
     background: #fff;
     margin: 0 auto;
@@ -83,29 +91,36 @@ body{
     height: 20%;
     background: #000000;
     width: 100%;
-}
-.footer-logo img{
-    border-radius: 100%;
+    display: flex;
 }
 
-.footer-logo{
+.footer-content{
     display: flex;
-    font-size: 0.4rem;
-    padding: 15px;
-    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.footer img{
+    border-radius: 100%;
+    margin-top: 20%;
 }
 
 .footer-icon i{
     color: #fff;
 }
 
-.footer-icon{
-    margin-left: 10px;
-    font-size: 2rem;
+.footer-social{
+    display: flex;
 }
+
+.footer-icon{
+    margin: 10px;
+    font-size: 2.5rem;
+}
+
 
 .footer-contact{
-    padding-left: 60%;
-    position: absolute;
+    color: #fff;
+    margin-left: 60%;
+    margin-top: 4%;
 }
-
