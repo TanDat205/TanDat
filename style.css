@@ -31,6 +31,7 @@ body{
     display: flex;
     height: 100%;
     width: 100%;
+    justify-content: space-between;
 }
 
 .navbar-logo img{
@@ -43,8 +44,10 @@ body{
 }
 
 .navbar-icon{
-    padding-top: 5%;
-    margin: 5px;
+    display: flex;
+    padding-top: 8%;
+    margin: 2%;
+    gap: 5%;
 }
 .navbar-logo i{
     color: #fff;
@@ -52,21 +55,22 @@ body{
 }
 
 .navbar-text{
-    margin-left: 55%;
-    padding-top: 2%;
     display: flex;
-    position: absolute;
+    font-size: 150%;
+    font-weight: 1000;
+    padding-right: 10%;
+    padding-top: 2.5%;
 }
 
 .navbar-text .text{
     text-decoration: none;
     color: #fff;
-    margin: 3%;
+    padding-left: 20px;
 }
-h1{
+p{
     position: relative;
 }
-.navbar-text h1::after{
+.navbar-text p::after{
     content: '';
     position: absolute;
     background: hotpink;
@@ -75,7 +79,7 @@ h1{
     opacity: 0;
     transition: .3s;
 }
-.navbar-text h1:hover::after{
+.navbar-text p:hover::after{
     opacity: 1;
     transform: translateY(8px);
 }
