@@ -1,34 +1,42 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0 0;
     font-family: 'Montserrat', sans-serif;
 
 }
 
 body{
-    background-image: url("./background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+
     height: 100%;
     width: 100%;
     display: block;
-    justify-content: center;
 }
-
-.app{
+html{
     height: 100%;
     width: 100%;
+    margin: 0 0;
+}
+
+
+.app{
+    height: min-content;
+    width: 100%;
     margin: 0 auto;
+    background: #8A0303;
 }
 
 .header{
     background: #FFB800;
     width: 100%;
+    height:20%;
+    display: block;
+    position: relative;
 }
 
 .header-navbar{
     display: flex;
     width: 100%;
+    height: 100%;
     justify-content: space-between;
 }
 
@@ -38,16 +46,17 @@ body{
 
 .navbar-logo{
     display: flex;
-    margin: 10px;
+    height: min-content;
+    padding: 30px 10px;
 }
 
 .navbar-icon{
     display: flex;
-    height: 100%;
     width: 100%;
     padding-top: 10px;
     margin: 5px;
     gap: 5px;
+    height: min-content;
 
 }
 .navbar-logo i{
@@ -56,9 +65,9 @@ body{
 }
 
 .navbar-text{
-    padding-top: 30px;
+    padding-top: 45px;
     padding-right: 5%;
-    font-size: 10px;
+
 }
 
 .navbar-text .text{
@@ -86,10 +95,11 @@ h1{
 
 
 .content{
-    height: max-content;
+    position: relative;
+    height: min-content;
     width: 60%;
-    background: #fff;
     margin: 0 auto;
+    background: #EDDCEE;
 }
 
 .copywrite{
