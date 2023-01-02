@@ -143,11 +143,11 @@ h1{
 
 
 .footer{
-    height: 20%;
-    background: #000000;
+    background: #3F4451;
+    height: 200px;
     width: 100%;
     display: flex;
-    position: relative;
+
 }
 
 .footer-content{
@@ -157,28 +157,57 @@ h1{
 }
 
 .footer img{
+    margin-top: 10px;
+    margin-left: 25px;
     border-radius: 100%;
-    margin-top: 15%;
 }
 
 .footer-icon i{
-    color: #fff;
+    color: white;
     font-size: 200%;
     margin: 2px;
 }
 
 .footer-social{
-    display: flex;
+    display: block;
+    width: 120px;
 }
 
 .footer-icon{
     margin: 10px;
+    display: flex;
+    font-size: 15px;
 }
 
 
 .footer-contact{
-    color: #fff;
+    color: white;
     margin-left: 60%;
-    margin-top: 2%;
-    position: absolute;
+    padding: 20px;
+}
+
+.footer-sub{
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer-sub input{
+    height: 30px;
+    width: 250px;
+}
+button{
+    cursor: pointer;
+    border: 0;
+    background: #f09bab2f;
+    padding: 13px 22px;
+    border-radius: 6px;
+    font: 600 22px;
+    box-shadow: 0 6px 0 #ff0030;
+    transition: .3s;
+}
+button:active{
+    transform: translateY(5px);
+    box-shadow: 0 3px 0 #ff0020;
 }
