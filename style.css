@@ -22,7 +22,10 @@ html{
     height: min-content;
     width: 100%;
     margin: 0 auto;
-    background: #8A0303;
+}
+
+.article{
+    display: flex;
 }
 
 .header{
@@ -93,13 +96,11 @@ h1{
     transform: translateY(8px);
 }
 
-
 .content{
     position: relative;
     height: min-content;
-    width: 60%;
+    width: 75%;
     margin: 0 auto;
-    background: #EDDCEE;
 }
 
 .copywrite{
@@ -133,6 +134,18 @@ h1{
     margin: 1px;
 }
 
+/* .info-facebook{
+    display: flex;
+
+}
+
+.left-image img{
+    border-color: #fff 5px;
+}
+
+.link-facebook{
+    padding-top: 10px;
+} */
 
 
 
@@ -204,10 +217,10 @@ button{
     padding: 13px 22px;
     border-radius: 6px;
     font: 600 22px;
-    box-shadow: 0 6px 0 #ff0030;
+    box-shadow: 0 2px 0 #ff1943;
     transition: .3s;
 }
 button:active{
     transform: translateY(5px);
-    box-shadow: 0 3px 0 #ff0020;
+    box-shadow: 0 1px 0 #ff0020;
 }
