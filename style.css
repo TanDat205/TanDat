@@ -6,7 +6,6 @@
 }
 
 body{
-
     height: 100%;
     width: 100%;
     display: block;
@@ -16,7 +15,6 @@ html{
     width: 100%;
     margin: 0 0;
 }
-
 
 .app{
     height: min-content;
@@ -61,7 +59,6 @@ html{
     display: flex;
     align-items: center;
     margin-right: 4px;
-
 }
 
 .navbar-icon a{
@@ -171,7 +168,6 @@ h1{
     height: 200px;
     width: 100%;
     display: flex;
-
 }
 
 .footer-content{
