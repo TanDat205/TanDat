@@ -218,17 +218,23 @@ h1{
     height: 30px;
     width: 250px;
 }
-button{
+.register button{
     cursor: pointer;
     border: 0;
     background: #f09bab2f;
-    padding: 13px 22px;
-    border-radius: 6px;
+    border-radius: 5px;
     font: 600 22px;
-    box-shadow: 0 2px 0 #ff1943;
+    box-shadow: 0 1px 0 #ff1943;
     transition: .3s;
+    padding: 5px 5px;
 }
-button:active{
+.register button:active{
     transform: translateY(5px);
     box-shadow: 0 1px 0 #ff0020;
+}
+
+.register a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 5px;
 }
