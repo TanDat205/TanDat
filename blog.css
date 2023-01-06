@@ -2,11 +2,10 @@
     padding: 0;
     margin: 0 0;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 body{
-
+    
     height: 100%;
     width: 100%;
     display: block;
@@ -97,6 +96,8 @@ h1{
     opacity: 1;
     transform: translateY(8px);
 }
+
+
 
 .article{
     display: flex;
