@@ -205,22 +205,30 @@ h1{
     gap: 30px;
 }
 
-
-.facebook{
-    background-image: url(./facebook.png);
-    background-repeat: no-repeat;
-    width: 350px;
+.media-facebook{
+    margin-right: 70px;
 }
 
-.background-facebook{
-    margin-right: 0px;
-}
-.facebook a{
-    padding: 10px;
-    font-size: 10px;
+.facebook-logo{
     display: flex;
-    color: #fff;
     align-items: center;
+}
+
+.facebook-logo i{
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.facebook-logo a{
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+}
+
+.facebook-image{
+    display: flex;
+    gap: 30px;
 }
 
 
