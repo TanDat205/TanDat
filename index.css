@@ -147,28 +147,27 @@ h1{
 }
 
 .page{
-    padding-top: 60px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 .number{
     width: 30px;
     height: 30px;
     background: #ff0020;
     border-radius: 100%;
-    margin-left: 10px;
     color: black;
+    margin: 5px;
     font-size: 20px;
-    text-decoration: none;
 }
 .number p{
-    text-decoration: none;
     text-align: center;
-    text-decoration: none;
+    border-radius: 100%;
+
 }
 .page a{
     text-decoration: none;
+    border-radius: 100%;
 }
 
 
