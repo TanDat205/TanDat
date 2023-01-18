@@ -3,7 +3,7 @@ function giai(){
   let b = document.getElementById("email").value;
   let c = document.getElementById("password").value;
 
-  if (isNaN(a) || isNaN(b)|| isNaN(c)){
+  if {
       alert(" Vui lòng nhập số");
       return;
 } 

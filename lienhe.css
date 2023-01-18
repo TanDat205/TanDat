@@ -100,13 +100,37 @@ h1{
     transform: translateY(8px);
 }
 
+.content{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.infor{
+    text-align: center;
+    font-size: 20px;
+}
+
+.infor h1{
+    margin: 40px 0 40px 0;
+}
+
+.tact{
+    text-align: center;
+}
+
+.tact a{
+    font-size: 25px;
+    color: #ff0020;
+}
+
+
 
 .footer{
     background: #3F4451;
     height: 30%;
     width: 100%;
     display: flex;
-    margin-top: 600px;
+    margin-top: 50px;
 }
 
 .footer-content{
